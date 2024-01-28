@@ -1,0 +1,29 @@
+@import '../../styles/utils.scss';
+
+.section{
+    @include display-flex;
+    column-gap: 24px;
+}
+
+.textWrapper{
+    width: 50%;
+
+    .title{
+        text-transform: uppercase;
+        font-size: 52px;
+        letter-spacing: 5%;
+    }
+}
+
+.card{
+    width: 318px;
+    height: 177px;
+    border: 1px solid $border;
+    @include card-display-flex;
+}
+
+.cardTitle{
+    color: $primary-red;
+    font-size: 28px;
+    line-height: 73px;
+}

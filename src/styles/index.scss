@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import './utils.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+body{
+    background-color: $dark;
+}
+
+ul, ol, li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    border: none;
+    background-color: none;
+}
+
+.container{
+    width: 1299px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p, span{
+    color: $white;
+}
+
+section, nav, main {
+    position: relative;
+}
+
+section{
+    margin-bottom: 180px;
+}

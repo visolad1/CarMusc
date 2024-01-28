@@ -1,0 +1,26 @@
+$primary-red: #DB3138;
+$primary-red-dark: #811b1e;
+$white: #fff;
+$border: #898989;
+$dark: #141414;
+
+@mixin display-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin card-display-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
