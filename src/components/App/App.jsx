@@ -1,4 +1,5 @@
 import { Achievements } from "../Achievements"
+import { AchievementsSlider } from "../AchievementsSlider"
 import { Header } from "../Header"
 
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header />
       <Achievements />
+      <AchievementsSlider />
     </>
   )
 }

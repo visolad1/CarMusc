@@ -2,6 +2,7 @@
 
 .section{
     @include display-flex;
+    align-items: start;
     column-gap: 24px;
 }
 
@@ -10,8 +11,27 @@
 
     .title{
         text-transform: uppercase;
-        font-size: 52px;
-        letter-spacing: 5%;
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+
+    .rectanglesIcon{
+        margin-bottom: 40px;
+    }
+
+    .text{
+        width: 85%;
+        font-size: 20px;
+    }
+}
+
+.cards{
+    width: 50%;
+    height: 100%;
+    display: flex;
+
+    .divColumn2{
+        margin-top: 40px;
     }
 }
 
@@ -20,10 +40,23 @@
     height: 177px;
     border: 1px solid $border;
     @include card-display-flex;
+    cursor: pointer;
+
+    &:hover{
+        
+        .cardTitle{
+            color: white;
+            transition: all .3s ease-in-out;
+        }
+    }
 }
 
 .cardTitle{
     color: $primary-red;
     font-size: 28px;
     line-height: 73px;
+}
+
+.cardImg{
+    margin-bottom: 20px;
 }
